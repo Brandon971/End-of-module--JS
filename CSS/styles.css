@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    width: 4rem;
+}
+
+#heading{
+    font-size: 10rem;
+    font-weight: 400;
+    font-family:serif;
+}
+
+.landing{
+    background-color: rgb(222,212,208);
+    width: 100%;
+    height: 100%;
+}
+
+.products {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: lightgrey;
+}
+.buybtn{
+    margin-left: 38% ;
+    
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+};
+.card-text{
+    margin-left: 38%;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#checkoutbtn {
+    margin-left: 47%;
+}
+
+.secure{
+    margin-left: 45%;
+}
+.sneakerHeading {
+    background-image: url(https://i.postimg.cc/fy5w7Y2s/1232095.jpg) ;
+    background-size: contain;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: serif;
+    height: 18vh;
+}
